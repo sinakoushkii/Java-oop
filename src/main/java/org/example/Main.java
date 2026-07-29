@@ -19,7 +19,7 @@ public class Main {
         result = Math.floor(4.99);
         result = Math.max(10,20);
         result = Math.min(10,20);
-        
+
 
         System.out.println(result);
 
