@@ -3,6 +3,7 @@ package org.example;
 import java.util.Random;
 
 public class Main {
+//    change git config
     public static void main(String[] args) {
         Random random=new Random();
 
