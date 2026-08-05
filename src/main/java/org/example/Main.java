@@ -2,10 +2,10 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
+        showNumberOfFriends();
         manageCars();
 
     }
-
 
     public static void manageCars() {
 
@@ -29,5 +29,14 @@ public class Main {
         for (Car car : cars) {
             car.move();
         }
+    }
+
+    public static void showNumberOfFriends() {
+        Friend friend1 = new Friend("Reza");
+        Friend friend2 = new Friend("Javad");
+        Friend friend3 = new Friend("Naser");
+        Friend friend4 = new Friend("Amir");
+
+        Friend.totalFriends();
     }
 }
