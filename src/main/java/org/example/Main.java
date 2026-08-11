@@ -6,6 +6,11 @@ public class Main {
         Cat cat1 = new Cat("teddy", "white");
         Dog dog1 = new Dog("bob", "black");
         Fish fish1 = new Fish("nemo", "orange");
+        Car car1 = new Car("red", 2025, "mustang");
+
+        System.out.println(car1);
+
+
         Plant flower = new Plant();
 
         dog1.move();
