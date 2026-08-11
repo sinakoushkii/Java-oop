@@ -5,7 +5,12 @@ public class Main {
 
         Cat cat1 = new Cat("teddy", "white");
         Dog dog1 = new Dog("bob", "black");
+        Fish fish1 = new Fish("nemo", "orange");
         Plant flower = new Plant();
+
+        dog1.move();
+        cat1.move();
+        fish1.move();
 
         flower.photosenthysize();
         System.out.println("flower " + flower.isAlive);

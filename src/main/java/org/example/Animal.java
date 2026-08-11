@@ -14,4 +14,8 @@ public class Animal extends Organism {
     public void eat() {
         System.out.println("Animal is eating");
     }
+
+    public void move() {
+        System.out.println("Animal is running");
+    }
 }
