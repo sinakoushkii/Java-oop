@@ -7,6 +7,8 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
+        // file reader
+
         String filePath = "C:\\Users\\co.koshki\\Desktop\\test1.txt";
 
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
